@@ -9,8 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Image HorizontalAlignment="Center" Height="512" Margin="0,80,0,0" VerticalAlignment="Top" Width="512" Loaded="Image_Loaded" Stretch="None"/>
+        <Image Name="img" HorizontalAlignment="Center" Height="672" Margin="0,80,0,0" VerticalAlignment="Top" Width="672" Loaded="Image_Loaded"/>
         <TextBlock Name="infoText" HorizontalAlignment="Center" Margin="30,10,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" TextAlignment="Center"/>
+        <Button Content="Segment" Margin="1147,400,0,0" VerticalAlignment="Top" Click="Button_Seg"/>
 
     </Grid>
 </Page>
